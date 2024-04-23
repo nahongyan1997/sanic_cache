@@ -11,13 +11,7 @@
 ### 增加了重试次数限制器装饰器
 ```
 @cache.retry_limiter(make_name=partial(f, ...))
-def index(request: Request):
-    ...
-```
-### 增加了重试次数限制器装饰器
-```
-@cache.retry_limiter(make_name=partial(f, ...))
-def index(request: Request):
+def index(request: Request, retry_clear: typing:List[callable]):
     ...
 ```
 ### 增加了分布式锁
