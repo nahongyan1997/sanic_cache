@@ -1,0 +1,11 @@
+*.c                linguist-language=C
+*.h                linguist-language=C
+*.cpp              linguist-language=C++
+*.hpp              linguist-language=C++
+*.java             linguist-language=Java
+*.py               linguist-language=Python
+*.rb               linguist-language=Ruby
+*.html             linguist-language=HTML
+*.css              linguist-language=CSS
+*.js               linguist-language=JavaScript
+*.php              linguist-language=PHP
